@@ -1,0 +1,43 @@
+body {
+    margin:0;
+    padding:0;
+    background-image: url(Timikepek/macska2.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size:cover;
+    color: rgb(237, 248, 247);
+	
+  background-attachment: fixed;
+  }
+  main{
+    background-color: grey;
+    width: 80%;
+    border: 1px solid red;
+  }
+  *{box-sizing:border-box;}
+  h1{
+    text-align: center;
+    color: rgb(82, 189, 180);
+    margin-right: 250px;
+    padding-bottom: 150px;
+    font-size: 40pt;
+    
+    font-family: fantasy;
+  }
+  .card{
+    width: 150%;
+    float: right;
+    margin-right: 700px;
+  }
+  
+  @media only screen and (max-width: 950px) {
+    
+    h1{
+        margin-bottom: 250px;
+        text-align: center;
+        color: rgb(82, 189, 180);
+        font-size: 40pt;
+        margin: 0;
+        font-family: fantasy;
+      }
+}
